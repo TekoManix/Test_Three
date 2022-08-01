@@ -7,11 +7,12 @@ public class MenuScript : MonoBehaviour
 {
     public string nextLevelName;
     public AudioSource buttonSFX;
-    
+
     public void GoToNextLevel()
     {
-        buttonSFX.Play();
-        SceneManager.LoadScene(nextLevelName);
-    }
 
+        SceneManager.LoadScene(nextLevelName);
+        buttonSFX.Play();
+
+    }
 }

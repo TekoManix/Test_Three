@@ -317,7 +317,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 925eae274ab4f9a4b849202ef1a5e038, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -836,7 +836,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 800497230}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
-        m_MethodName: goToNextLevel
+        m_MethodName: GoToNextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1013,7 +1013,7 @@ AudioSource:
   m_GameObject: {fileID: 1354610993}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1505703804899526388, guid: f55466ac644277c43a54af4466be6834, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0ee0afc3cba36af4baad46b60bf5d829, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
